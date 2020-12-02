@@ -1,5 +1,5 @@
 const api = axios.create({
-  baseURL: 'http://localhost:1010/projects/gaya/',
+  baseURL: 'https://gayawebinar.000webhostapp.com/',
   timeout: 5000,
 });
 
