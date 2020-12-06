@@ -332,12 +332,14 @@ aside .credits .social .icon img:hover{
 	}
 
 	main .speakers_container .speakers{
-		display: flex;
-		justify-content: center;
+		display: block;
+		height: auto;
 	}
 
 	main .speakers_container .speaker{
+		width: 100%;
 		margin: 10px 0px 10px 0px;
+		display: block;
 	}
 
 	main{
