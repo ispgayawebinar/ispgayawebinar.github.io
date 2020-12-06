@@ -23,7 +23,7 @@
 }
 
 body{
-	background-color: #2D2D2E;
+	background-color: #fb5c2b;
 }
 
 main{
@@ -46,8 +46,11 @@ header{
 }
 
 .logo{
-	width: 170px;
+	width: 120px;
 	margin: 50px;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 2px;
 }
 
 .logo img{
@@ -177,7 +180,7 @@ aside .father .form .input input{
 }
 
 aside .father .form .input input:focus{
-	border-color: #2835A8;
+	border-color: #333;
 }
 
 aside .father .form input.input-error{
@@ -197,8 +200,8 @@ aside .father .form .error{
 aside .father .form .input button{
 	width: 100%;
 	height: 50px;
-	border: solid 1px #2835A8;
-	background-color: #2835A8;
+	border: solid 1px #333;
+	background-color: #333;
 	color: #fff;
 	border-radius: 4px;
 	font-size: 14px;
@@ -209,11 +212,11 @@ aside .father .form .input button{
 
 
 aside .father .form .input button:hover{
-	background-color: #1133A8;
+	background-color: #444;
 }
 
 aside .father .form .input button:active{
-	background-color: #1111A8;
+	background-color: #222;
 }
 
 aside .father .form  .response{
@@ -309,4 +312,37 @@ aside .credits .social .icon img:hover{
 		width: 100%;
 	}
 
+	.logo{
+		width: 100px;
+		margin-left: 30px;
+	}
+
+	main .title h1{
+	font-size: 20px;
+	}
+
+	.description p{
+		font-size: 20px;
+	}
+
+	main .speakers_container h2{
+		font-size: 20px;
+	}
+
+	main .speakers_container .speakers{
+		display: flex;
+		justify-content: center;
+	}
+
+	main .speakers_container .speaker{
+		margin: 10px 0px 10px 0px;
+	}
+
+	main .speakers_container .speaker .profile{
+		width: 50%;
+	}
+
+	main{
+		padding-bottom: 50px;
+	}
 }
