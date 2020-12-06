@@ -1,6 +1,6 @@
 const api = axios.create({
   baseURL: 'https://gayawebinar.000webhostapp.com/',
-  timeout: 5000,
+  timeout: 10000,
 });
 
 var loading_element = document.getElementById("loading");
@@ -192,4 +192,7 @@ else{
 	input_send.disabled = true;
 	loading_element.style = "display: none";
 	not_found_element.style = "display: block";
+	document.getElementById("form").style = "display: none;";
+	document.getElementById("titlea").style = "display: none;";
+
 }

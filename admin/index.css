@@ -1,0 +1,85 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+aside{
+	position: relative;
+	width: 15%;
+	height: 100vh;
+	float: left;
+	background-color: #2D2D2E;
+}
+
+aside ul{
+	width: 100%;
+	height: 100%;
+}
+
+aside ul li{
+	width: 100%;
+	height: 40px;
+	color: #fff;
+	align-items: center;
+	display: flex;
+	user-select: none;
+	cursor: pointer;
+	background-color: #313131;
+	border-bottom: solid 1px #2a2a2a;
+}
+
+aside ul li:hover{
+	background-color: #414141;	
+}
+
+aside ul li span{
+	margin-left: 10px;
+}
+
+main{
+	position: relative;
+	width: 85%;
+	height: 100vh;
+	float: right;
+	overflow-y: auto;
+}
+
+.window{
+	width: 80%;
+	margin: 50px auto 0;
+}
+
+.window h1{
+	font-size: 30px;
+}
+
+.window h2{
+	font-size: 23px;
+}
+
+.window .form .input{
+	width: 40%;
+	margin-bottom: 8px;
+}
+
+.window .form .input input{
+	width: 100%;
+	height: 33px;
+	padding-left: 8px;
+	box-sizing: border-box;
+}
+
+.window .form .input button{
+	width: 100%;
+	height: 33px;
+	box-sizing: border-box;
+}
+
+.window .form .input textarea{
+	width: 100%;
+	box-sizing: border-box;
+	height: 200px;
+	padding: 8px;
+}
