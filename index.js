@@ -86,7 +86,7 @@ function enviar_de_verdade(name, lastname, email){
 
 		if(res.data.status == "ok"){
 			input_send.innerHTML = "Enviar";
-			response.innerText = "Inscrição feita com successo!";
+			response.innerText = "Inscrição feita com sucesso!";
 			input_send.disabled = false;
 		}
 		else{
@@ -107,7 +107,7 @@ function sendCoisa(){
 		var name_div = document.createElement("div");
 		
 		input_name.className = "input-error";
-		name_span.innerText = "Nome invalido";
+		name_span.innerText = "Nome inválido";
 		name_div.appendChild(name_span);
 		name_div.className = "error";
 		if(input_name.parentNode.children.length < 2){
@@ -121,7 +121,7 @@ function sendCoisa(){
 		var div = document.createElement("div");
 
 		input_lastname.className = "input-error";
-		span.innerText = "Apelido invalido";
+		span.innerText = "Apelido inválido";
 		div.appendChild(span);
 		div.className = "error";
 		if(input_lastname.parentNode.children.length < 2){
@@ -136,7 +136,7 @@ function sendCoisa(){
 		var email_div = document.createElement("div");
 
 		input_email.className = "input-error";
-		email_span.innerText = "Email invalido";
+		email_span.innerText = "Email inválido";
 		email_div.appendChild(email_span);
 		email_div.className = "error";
 		if(input_email.parentNode.children.length < 2){
@@ -150,7 +150,7 @@ function sendCoisa(){
 		var email_div = document.createElement("div");
 
 		input_email.className = "input-error";
-		email_span.innerText = "Email invalido";
+		email_span.innerText = "Email inválido";
 		email_div.appendChild(email_span);
 		email_div.className = "error";
 		if(input_email.parentNode.children.length < 2){
