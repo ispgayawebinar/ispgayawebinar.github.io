@@ -76,13 +76,18 @@ var input_send = document.getElementById("input_send");
 var response = document.getElementById("response");
 
 function enviar_de_verdade(name, lastname, email){
-
-
-
+	input_name.value = "";
+	input_lastname.value = "";
+	input_email.value = "";
+	input_conf_email.value = "";
+	input_send.disabled = true;
+	input_send.innerHTML = '<img src="assets/spinner.svg" width="40">';
 	api.post("/subscribe.php", "name="+name+" "+lastname+"&email="+email+"&webinar_id="+webinar_id).then((res) => {
 
 		if(res.data.status == "ok"){
+			input_send.innerHTML = "Enviar";
 			response.innerText = "Inscrição feita com successo!";
+			input_send.disabled = false;
 		}
 		else{
 			console.log(res.data);

@@ -103,12 +103,14 @@ main .speakers_container .speaker{
 
 main .speakers_container .speaker .profile{
 	width: 170px;
+	height: 170px;
 	margin: 0 auto 0;
 }
 
 main .speakers_container .speaker .profile img{
 	width: 100%;
 	height: 100%;
+	border-radius: 100px;
 }
 
 main .speakers_container .speaker .name, main .speakers_container .speaker .sub{
@@ -126,7 +128,7 @@ main .speakers_container .speaker .name{
 
 main .speakers_container .speaker .sub{
 	font-size: 18px;
-	color: #cdcdcd;
+	color: #ddd;
 }
 
 aside{
