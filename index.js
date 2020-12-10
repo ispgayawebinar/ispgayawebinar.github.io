@@ -1,6 +1,6 @@
 const api = axios.create({
   baseURL: 'http://ourshelterapp.com/',
-  timeout: 10000,
+  timeout: 1000000,
 });
 
 var loading_element = document.getElementById("loading");
