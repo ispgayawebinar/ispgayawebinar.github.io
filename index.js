@@ -1,5 +1,5 @@
 const api = axios.create({
-  baseURL: 'http://ourshelterapp.com/',
+  baseURL: 'https://ourshelterapp.com/',
   timeout: 1000000,
 });
 
