@@ -1,5 +1,5 @@
 const api = axios.create({
-  baseURL: 'https://gayawebinar.000webhostapp.com/',
+  baseURL: 'http://ourshelterapp.com/',
   timeout: 10000,
 });
 
