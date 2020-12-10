@@ -64,6 +64,7 @@ main .title, main .description{
 
 main .title h1, main .description p{
 	color: #fff;
+	text-align: justify;
 }
 
 main .title h1{
